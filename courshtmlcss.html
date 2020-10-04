@@ -2,10 +2,58 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Titre</title>
+        <title>cours htmlcss</title>
     </head>
 
     <body>
+        <h1>Premier titre</h1>
+        <h2 id="mon_ancre">Sous titre</h2>
+        <p><strong>Bonjour</strong> et <mark>bienvenue</mark> sur mon site <br/> Ici vous <em>découvrez</em> toutes les fonctions de html</p>
+
+        <ul>
+            <li>Fraises</li>
+            <li>Framboises</li>
+            <li>Cerises</li>
+        </ul>
+
+        <ol>
+            <li>Je me lève</li>
+            <li>Je mange et je bois</li>
+            <li>Je retourne me coucher</li>
+        </ol>
+
+        <a href="https://github.com/RyadB20/Gitbase/tree/tg"> Github distant</a>
+
+        <a href="README.md">README</a>
+
+        <a href="../Gitbase/test_2">fichier dans dossier précédent</a>
         
+        <a href="#mon_ancre">aller au sous titre</a>
+
+        <!--Pour faire une ancre vers une autre page-->
+        <a href="ancres.html#cuisine">La cuisine</a><br/>
+        <a href="ancres.html#rollers">Les rollers</a><br/>
+        <!--Un lien qui ouvre une nouvelle fenêtre
+        Il est possible de « forcer » l'ouverture d'un lien dans une nouvelle fenêtre. Pour cela, on rajoutera target="_blank"  à la balise <a>  :-->
+            <p>Bonjour. Souhaitez-vous visiter <a href="https://openclassrooms.com" title="Vous ne le regretterez pas !" target="_blank">OpenClassrooms</a> ?</p><br/>
+        
+        <!--envoyer un mail-->
+        <p><a href="mailto:ryadbaghdadli@hotmail.fr">Envoyez moi un mail</a></p>
+        <p><a href="README.md">Télécharger le fichier README</a></p>
+        <!--Format JPEG = meilleure compression que PNG = meilleur pour les photos
+            Format PNG = rendu transparent, pas de modification de la qualité d'une image, 8 bits pour une image avec peu de couleurs et 24 bits avec beaucoup de couleurs
+            GIF = image animée-->
+        <img src="random.jpg" alt="random" />
+
+        <p>
+            Vous souhaitez voir l'image dans sa  taille d'origine ? Cliquez dessus !<br/>
+            <a href="random.jpg"><img src="randommini.jpg" alt="Photo random" title="Cliquez ici pour agrandir" /></a>
+        </p>
+
+        <figure>
+            <img src="Capture.PNG" alt="Bloc-Notes" />
+            <figcaption>Le logiciel Bloc-Notes</figcaption> <!--légende de l'image-->
+        </figure>
+
     </body>
 </html>
